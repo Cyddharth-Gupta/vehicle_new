@@ -47,7 +47,22 @@
     "react-router-dom": "^6.16.0",
     "react-swipeable-views-react-18-fix": "^0.14.1",
     "rpmbuild": "^0.0.23",
-    "socket.io-client": "^4.7.2"
+    "socket.io-client": "^4.7.2",
+    "@loopback/boot": "^6.1.1",
+    "@loopback/core": "^5.1.1",
+    "@loopback/repository": "^6.1.1",
+    "@loopback/rest": "^13.1.1",
+    "@loopback/rest-explorer": "^6.1.1",
+    "@loopback/service-proxy": "^6.1.1",
+    "aws-sdk": "^2.1475.0",
+    "canvas": "^2.11.2",
+    "html-pdf-node": "^1.0.8",
+    "jsbarcode": "^3.11.5",
+    "jsonwebtoken": "^9.0.2",
+    "loopback-connector-mongodb": "^5.6.0",
+    "serialport": "^12.0.0",
+    "socket.io": "^4.7.2",
+    "tslib": "^2.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -92,6 +107,14 @@
     "electron": "^23.3.13",
     "electron-builder": "^23.6.0",
     "tailwindcss": "^3.3.5",
-    "wait-on": "^7.0.1"
+    "wait-on": "^7.0.1",
+    "@loopback/build": "^10.1.1",
+    "@loopback/eslint-config": "^14.0.2",
+    "@loopback/testlab": "^6.1.1",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/node": "^16.18.38",
+    "eslint": "^8.45.0",
+    "source-map-support": "^0.5.21",
+    "typescript": "~5.1.6"
   }
 }
