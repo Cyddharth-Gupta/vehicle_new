@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body, html{
+           width: 100%;
+           height:100%;
+           font-family: sans-serif;
+           letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div style="border-bottom: dotted;border-bottom-width: 2px;padding: 15px 0;">
+        <h2 style="text-align: center;">NACOP PLANT</h2>
+        <p style="text-align: center;padding: 0 20%;font-size: 15px;line-height: 1;margin-top: -10px;">{{zoneName}}, {{address}}, {{city}}, {{state}}</p>
+    </div>
+    <div style="border-bottom: dotted;border-bottom-width: 2px;padding: 15px 0;">
+        <h1 style="text-align: center;">RECEIPT</h1>
+    </div>
+    <div style="display: block;border-bottom: dotted;border-bottom-width: 2px;padding: 15px 0;">
+        <div style="width: 50%;display: inline-block;">
+            <p style="text-align: center;line-height: .5;">Address: {{address}}</p>
+            <p style="text-align: center;line-height: .5;">Date : {{date}}</p>
+            <p style="text-align: center;line-height: .5;">Manager : {{employeeName}}</p>
+        </div>
+        <div style="width: 50%;display: inline-block;float: right;">
+            <p style="text-align: center;line-height: .5;">{{time}}</p>
+            <p style="text-align: center;line-height: .5;">{{zoneName}}</p>
+        </div>
+    </div>
+    <div style="width: 100%;padding: 15px 0;">
+        <table style="width: 100%;">
+            <thead>
+                <th style="line-height: 3;">
+                    ITEM
+                </th>
+                <th style="line-height: 3;">
+                    DESCRIPTION
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center;line-height: 2;">
+                        Slip No.
+                    </td>
+                    <td style="text-align: center;line-height: 2;">
+                        {{slipNumber}}
+                    </td>
+                </tr> 
+                <tr>
+                    <td style="text-align: center;line-height: 2;">
+                        Supplier
+                    </td>
+                    <td style="text-align: center;line-height: 2;">
+                        {{supplier}}
+                    </td>
+                </tr> 
+                <tr>
+                    <td style="text-align: center;line-height: 2;">
+                        Vehicle Number
+                    </td>
+                    <td style="text-align: center;line-height: 2;">
+                        {{vehicleNumber}}
+                    </td>
+                </tr> 
+                <tr>
+                    <td style="text-align: center;line-height: 2;">
+                        Weight Type
+                    </td>
+                    <td style="text-align: center;line-height: 2;">
+                        {{weightType}}
+                    </td>
+                </tr> 
+                <tr>
+                    <td style="text-align: center;line-height: 2;">
+                        Measure Type
+                    </td>
+                    <td style="text-align: center;line-height: 2;">
+                        {{measureType}}
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;line-height: 2;">
+                        Material
+                    </td>
+                    <td style="text-align: center;line-height: 2;">
+                        {{material}}
+                    </td>
+                </tr>          
+            </tbody>
+        </table>
+    </div>
+    <div style="display: block;padding: 15px 0;border-top: dotted;border-bottom-width: 2px;">
+        <div style="width: 50%;display: inline-block;">
+            <h3 style="text-align: center;">Gross Weight</h3>
+            <h3 style="text-align: center;">Tare Weight</h3>
+            <h3 style="text-align: center;">Net Weight</h3>
+        </div>
+        <div style="width: 50%;display: inline-block;float: right;">
+            <h3 style="text-align: center;">{{grossWeight}} KG</h3>
+            <h3 style="text-align: center;">{{tareWeight}} KG</h3>
+            <h3 style="text-align: center;">{{netWeight}} KG</h3>
+        </div>
+    </div>
+    <div style="display: block;padding: 20px 0;border-top: dotted;border-bottom-width: 2px;text-align: center;">
+        <h3 style="text-align: center;">THANK YOU!</h3>
+        <h5 style="text-align: center;font-weight: 400;margin-top: -10px;">YOUR FEEDBACK KEEPS US IMPROVING!</h5>
+        <img style="width: 100;height: 50;" src="{{barcodeUrl}}"/>
+    </div>
+</body>
+</html>
