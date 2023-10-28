@@ -3,8 +3,7 @@ import * as path from 'path';
 import installExtension, { REACT_DEVELOPER_TOOLS } from "electron-devtools-installer";
 import { spawn } from 'child_process'; 
 
-
-const backendPath = path.join(__dirname, "backend", "server.js");
+const backendPath = path.join(__dirname, "../dist", "index.js");
 const backendProcess = spawn("node", [backendPath]);
 function createWindow() {
   const win = new BrowserWindow({
